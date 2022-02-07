@@ -1,0 +1,131 @@
+<html>
+   <title>README</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+   <div class='container'>
+     
+    <img src="../background/arrow.jpg" alt="arrow" height="400" width="600" >
+      <div class='front'>
+        <h1>Welcome to README, a platform for all the books you need. </h1>
+         <h3><a href="../readme/readme.html">About README</a></h3>
+         <h3><a href="../team/index.html">Our Team</a></h3>
+         
+
+        <h2>By Team Readme</h2>
+      </div>
+     
+      <div class='bottompages'>
+      </div>
+       <div class='sidepages'>
+         <div class='line'>
+         </div>
+      </div>
+    </div>
+     
+    
+</html>
+
+
+
+<style>
+   .container {
+  margin:400px;
+  height: 600px;
+   animation:turn 5s;
+}
+
+img{
+  margin-left: 60%;
+  
+}
+
+@keyframes turn {
+  0% {
+     transform: rotateX(0deg) rotateY(0deg);
+  }  
+  50% {
+     transform: rotateX(20deg) rotateY(20deg);
+  }
+  100% {
+     transform: rotateX(0deg) rotateY(0deg);
+  }
+}
+
+.front {
+  width:420px;
+  height:595px;
+  background:#333333;
+  transform: rotateX(-30deg) rotateY(35deg);
+  position:absolute;
+  border-radius:0px 5px 5px 0;
+   color:#f6f6f6;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.front h1 {
+  padding:50px;
+}
+
+.front h2 {
+  padding:50px;
+  padding-top:150px;
+  
+}
+
+.front h3{
+
+   padding-left: 11%;
+  
+
+}
+.front h3 a{
+   color: white;
+   border-style:solid;
+}
+
+
+.sidepages {
+  width:40px;
+  height:598px;
+  border:1px solid #333333;
+  position:absolute;
+  margin-left:372px;
+  margin-top:-40px;
+  transform: rotateX(30deg) rotateY(50deg);
+  
+   background:white;
+  border-right:12px solid #333333;
+  border-radius:0px 5px 5px 20px;
+ border-top:0px;
+  overflow:hidden;
+}
+
+.line {
+  width:80px;
+  height:20px;
+  border:1px solid black;
+  border-top:0px;
+  border-right:1px solid white;
+  border-left:0px;
+  border-radius:0px 0px 20px 20px;
+  margin-top:-12px;
+  margin-left:-20px;
+  transform:rotateY(50deg);
+}
+
+.bottompages {
+  width:445px;
+  height:48px;
+  border:1px solid #333333;
+  border-right:0px;
+  position:absolute;
+  margin-left:-2px;
+  margin-top:538px;
+  transform: rotateX(-30deg) rotateY(34.8deg);
+  border-radius:0px 5px 0px 60px;
+  border-left:12px solid #333333;
+  border-bottom:12px solid #333333;
+}
+
+
+</style>
